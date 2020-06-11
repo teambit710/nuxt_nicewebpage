@@ -3,7 +3,7 @@
 </template>
 <style scoped>
 Ed {
-  animation: 1s appear;
+  animation: 3s appear;
   margin: auto;
 }
 
