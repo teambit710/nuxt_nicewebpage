@@ -2,9 +2,7 @@
   <div>
     <section class="my-4 ml-10">
       <div class="justify-center mx-auto lg:flex lg:flex-wrap">
-        <div class="flex-1">
-          <img class="Ed" src="~/assets/avataaars.svg" alt="Avatar" />
-        </div>
+        <Avatar />
         <div class="w-2/5">
           <h1 class="py-2 text-2xl font-bold text-center">
             Hey, I'm Ed, a web developer from Planet Earth.
@@ -29,12 +27,12 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Avatar from '~/components/Avatar.vue'
 import HeaderTop from '~/components/HeaderTop.vue'
 
 export default {
   components: {
-    Logo,
+    Avatar,
     HeaderTop
   }
 }
