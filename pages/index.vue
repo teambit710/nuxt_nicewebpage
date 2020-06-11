@@ -1,9 +1,9 @@
 <template>
-  <div class="container">
+  <div>
     <section class="my-4 ml-10">
-      <div class="flex flex-wrap justify-center mx-auto">
+      <div class="justify-center mx-auto lg:flex lg:flex-wrap">
         <div class="w-1/3">
-          <img src="~/assets/avataaars.svg" alt="Avatar" />
+          <img class="Ed" src="~/assets/avataaars.svg" alt="Avatar" />
         </div>
         <div class="w-2/5">
           <h1 class="py-2 text-2xl font-bold text-center">
@@ -41,9 +41,17 @@ export default {
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
+.Ed {
+  animation: 1s appear;
+  margin: auto;
 }
-*/
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 </style>

@@ -6,11 +6,10 @@
       <a
         class="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0"
       >
-        <img src="~/assets/logo_sm.png" class="w-12" alt="">
-          <path
-            d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
-          ></path>
-        </svg>
+        <img src="~/assets/logo_sm.png" class="w-12" alt="" />
+        <path
+          d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+        ></path>
         <span class="ml-3 text-xl">Ed's Coding</span>
       </a>
       <nav
