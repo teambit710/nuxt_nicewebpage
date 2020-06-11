@@ -25,10 +25,16 @@
       <nav
         class="flex flex-wrap items-center justify-center text-base md:ml-auto md:mr-auto"
       >
-        <a class="mr-5 hover:text-gray-900">First Link</a>
-        <a class="mr-5 hover:text-gray-900">Second Link</a>
-        <a class="mr-5 hover:text-gray-900">Third Link</a>
-        <a class="mr-5 hover:text-gray-900">Fourth Link</a>
+        <nuxt-link to="/" class="mr-5 hover:text-gray-900">Home</nuxt-link>
+        <nuxt-link to="projects" class="mr-5 hover:text-gray-900"
+          >Projects</nuxt-link
+        >
+        <nuxt-link to="skills" class="mr-5 hover:text-gray-900"
+          >Skills</nuxt-link
+        >
+        <nuxt-link to="contact" class="mr-5 hover:text-gray-900"
+          >Contact</nuxt-link
+        >
       </nav>
       <button
         class="inline-flex items-center px-3 py-1 mt-4 text-base bg-gray-200 border-0 rounded focus:outline-none hover:bg-gray-300 md:mt-0"

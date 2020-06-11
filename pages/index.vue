@@ -1,10 +1,10 @@
 <template>
-  <div class="container">
+  <div class="container mx-6 mx-auto">
     <section class="text-gray-700 body-font">
       <div
         class="container flex flex-col items-center px-5 py-24 mx-auto md:flex-row"
       >
-        <div class="w-5/6 mb-10 lg:max-w-lg lg:w-full md:w-1/2 md:mb-0">
+        <div class="justify-center w-5/6 mb-10 lg:w-full md:w-1/2 md:mb-0">
           <img
             class="object-cover object-center rounded"
             alt="hero"
