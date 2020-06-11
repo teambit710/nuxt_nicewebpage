@@ -2,7 +2,7 @@
   <div>
     <section class="my-4 ml-10">
       <div class="justify-center mx-auto lg:flex lg:flex-wrap">
-        <div class="w-1/3">
+        <div class="flex-1">
           <img class="Ed" src="~/assets/avataaars.svg" alt="Avatar" />
         </div>
         <div class="w-2/5">
